@@ -1,0 +1,25 @@
+# === Virtual Environment ===
+.venv/
+
+# === Python Caches & Build Artifacts ===
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# === Environment Variables & Secrets ===
+.env
+.env.*
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === IDE & OS Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
